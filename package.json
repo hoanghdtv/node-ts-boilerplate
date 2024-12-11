@@ -1,5 +1,5 @@
 {
-  "name": "hubspot-test",
+  "name": "node-ts-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
