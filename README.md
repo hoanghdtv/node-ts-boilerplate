@@ -15,7 +15,7 @@ A minimal Node.js boilerplate using TypeScript, Axios, ESLint, and other modern 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/node-ts-boilerplate.git
+   git clone https://github.com/johnretsas/node-ts-boilerplate.git
    cd node-ts-boilerplate
    ```
 
