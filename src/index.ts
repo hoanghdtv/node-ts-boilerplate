@@ -39,7 +39,7 @@ async function main() {
 // main().catch(err => console.error("Error in main():", err));
 
 cron.schedule(
-  "0 0 8 * * *",
+  "0 0 10 * * *",
   () => {
     console.log(new Date().toLocaleString(), "Running scheduled job...");
     main().catch(err => console.error("Error in scheduled job:", err));

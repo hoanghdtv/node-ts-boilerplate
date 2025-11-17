@@ -21,8 +21,8 @@ const transporter = nodemailer.createTransport({
   // Cấu hình nội dung email
   const mailOptions = {
     from: '"mst" <hoanghdtv154@gmail.com>',
-    // to: "hoanghdtv154@gmail.com",
-    to: "ntthanh15051988@gmail.com",
+    to: "hoanghdtv154@gmail.com, ntthanh15051988@gmail.com",
+    // to: "ntthanh15051988@gmail.com",
     subject: "Mã số thuế",
     text: "Hello! This is a email sent using Nodemailer and TypeScript.",
     // html: "<b>Hello!</b><br>This is a test email sent using <i>Nodemailer + TypeScript</i>.",
