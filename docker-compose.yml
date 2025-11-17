@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-ts-boilerplate
+    volumes:
+      - ./src:/app/src
+      - ./companies.csv:/app/companies.csv
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+    # Uncomment if your app uses a port
+    # ports:
+    #   - "3000:3000"
