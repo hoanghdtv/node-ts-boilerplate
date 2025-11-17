@@ -36,8 +36,10 @@ async function main() {
  Dùng timezone 'Asia/Ho_Chi_Minh' để đảm bảo là 8:00 theo VN.
 */
 
+// main().catch(err => console.error("Error in main():", err));
+
 cron.schedule(
-  "0 52 10 * * *",
+  "0 0 8 * * *",
   () => {
     console.log(new Date().toLocaleString(), "Running scheduled job...");
     main().catch(err => console.error("Error in scheduled job:", err));
